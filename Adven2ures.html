@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adven2ures Blog</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #2B1B17;
+            color: #E0D7C2;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #8B4513;
+            padding: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #FFD700;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .row {
+            background-color: #3E2723;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+        }
+        .row.columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 300px;
+            background-color: #A0522D;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(160, 82, 45, 0.5);
+            color: #FAF3E0;
+        }
+        .instagram-button, .youtube-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #FAF3E0;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .instagram-button {
+            background-color: #D84315;
+            color: #FAF3E0;
+        }
+        .youtube-button {
+            background-color: #C62828;
+            color: #FFD700;
+        }
+        .instagram-button img, .youtube-button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .row.background {
+            background: url('https://cdn.pixabay.com/photo/2017/03/27/14/58/paper-airplane-2178400_1280.jpg') no-repeat center center/cover;
+            color: #E0D7C2;
+            padding: 100px 20px;
+        }
+        @media (max-width: 768px) {
+            body {
+                font-size: 1rem;
+            }
+            header, footer {
+                font-size: 1.2rem;
+                padding: 15px;
+            }
+            section {
+                padding: 30px 15px;
+            }
+            .row {
+                margin: 5px;
+                padding: 15px;
+            }
+            .row.columns {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Adven2ures Blog</header>
+    
+    <section class="row background">
+        <h1>Content of our Channel</h1>
+        <p>Adven2ures is a channel run by students from Grade 10 at APEC Schools Las Pinas.The main goal of Adven2ures is to show the students' daily activities and experiences, especially as they relate to student life. Our channel aims to provide viewers an insight into the everyday routines, challenges, and joys of being a student. 
+</p>
+    </section>
+    
+    <section class="row columns">
+        <div class="column">
+            <h2>What does our Stream provide?</h2>
+            <p>Just recently, they posted their video “A day in the life of an APEC student”, which shows different routines, different hobbies, and different levels of productivity.  The premiere video showed what it is like to be an APEC student and what a “typical’ student does in their everyday life. The video showed 6 different students’ daily lives, and it can be seen that the students have similarities and differences. </p>
+        </div>
+        <div class="column">
+            <h2>Why should you watch?</h2>
+            <p>Adven2ures' main goal is to show off the students' everyday activities and experiences, especially as they relate to student life. Our channel aims to provide viewers a look into the routine, challenges, and pleasures of being a student.
+</p>
+        </div>
+    </section>
+    
+    <section class="row">
+        <h2>Adventure Stories</h2>
+        <p>Read about our thrilling travel experiences and unforgettable moments.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hD02_WEXxgs?si=9BP_DEV6fm3iCiR1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    
+    <section class="row">
+        <h2>Watch Our YouTube Channel</h2>
+        <p>Check out our latest adventure videos.</p>
+        <a href="https://youtube.com/@adven2ures?si=Oo0lWdh_-IoXh-0i" target="_blank" class="youtube-button">
+            <img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png" alt="YouTube Logo">
+            Visit Our YouTube
+        </a>
+    </section>
+    
+    <section class="row">
+        <h2>Follow Us on Instagram</h2>
+        <p>Stay updated with our latest travel moments.</p>
+        <a href="https://www.instagram.com/adven2ures_?igsh=MXFkcXgzZzRqb3IwbA==" target="_blank" class="instagram-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            Visit Our Instagram
+        </a>
+    </section>
+    
+    <footer>&copy; 2025 Adven2ures Blog. All Rights Reserved.</footer>
+</body>
+</html>
